@@ -526,7 +526,58 @@ h1, h2, h3, ul, p {
     border-color: var(--accent-color);
 }
 
+/* footer social media */
 
+
+
+.social {
+    display: flex;
+    
+}
+
+.footer-address {
+    margin-right: 120px;
+}
+
+.media-title {
+    margin-bottom: 16px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-bg-color)
+}
+
+.media-list {
+    display: flex;
+    list-style: none;
+    grid-gap: 16px;
+
+}
+
+.media-list-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-bg-color);
+    
+
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.media-list-link:hover {
+    color: var(--secondary-bg-color);
+    background-color: #31D0AA;
+}
+
+.media-list-icon {
+    fill: currentColor;
+}
 /* section gallery */
 /* gallery-text приховааний тимчасово поки ми його не накладаєм на картинку */
 .gallery-text {

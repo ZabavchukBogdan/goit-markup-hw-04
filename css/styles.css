@@ -153,7 +153,7 @@ h1, h2, h3, ul, p {
     margin-right: auto;
     background-color: var(--bg-color-foot-head);
     text-align: center;
-    background-image: linear-gradient(to right, rgba( 46, 47, 66, 0.5), rgba(46, 47, 66, 0.5)), url(../images/heroimg.jpg);
+    background-image: linear-gradient(to right, rgba( 46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimg.jpg);
     ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -418,10 +418,12 @@ h1, h2, h3, ul, p {
     
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
    color: var(--accent-color);
    border-color: var(--accent-color);
 }
+
 
 .customers-item {
     flex-basis: calc((100% - 24px) / 6);
@@ -570,10 +572,12 @@ h1, h2, h3, ul, p {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.media-list-link:hover {
+.media-list-link:hover,
+.media-list-link:focus {
     color: var(--secondary-bg-color);
     background-color: #31D0AA;
 }
+
 
 .media-list-icon {
     fill: currentColor;
